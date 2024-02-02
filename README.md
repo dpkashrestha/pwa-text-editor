@@ -10,7 +10,7 @@ This app is a single-page application that meets the PWA criteria. It features a
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshot](#screenshot)
-- [Deployed App](#deployedapp)
+- [Deployed App](#deployed-app)
 - [License](#license)
 - [Question](#question)
 
