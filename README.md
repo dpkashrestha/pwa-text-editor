@@ -1,4 +1,4 @@
-# text-editor ![Static Badge](https://img.shields.io/badge/license-MIT-blue)
+# Text Editor ![Static Badge](https://img.shields.io/badge/license-MIT-blue)
 
 
 ## Description 
