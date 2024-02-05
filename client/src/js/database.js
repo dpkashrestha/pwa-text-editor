@@ -1,5 +1,6 @@
 import { openDB } from 'idb';
 
+// Function to initialize the database
 const initdb = async () =>
   openDB('jate', 1, {
     upgrade(db) {
@@ -13,7 +14,6 @@ const initdb = async () =>
   });
 
 // Added logic to a method that accepts some content and adds it to the database
-
 export const putDb = async (content) => {
   console.log('PUT to the database');
   const jateDb = await openDB('jate', 1);
@@ -26,8 +26,6 @@ export const putDb = async (content) => {
 
 
 // Added logic for a method that gets all the content from the database
-
-
 export const getDb = async () => {
   console.log('GET from the database');
   const jateDb = await openDB('jate', 1);
@@ -39,4 +37,5 @@ export const getDb = async () => {
   return result? result.content : '';
 };
 
+// Initialize the database when the module is imported
 initdb();
